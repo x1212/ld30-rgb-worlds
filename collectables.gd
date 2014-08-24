@@ -20,4 +20,4 @@ func _on_Area2D_body_enter( body ):
 	got_collected = true
 	print("collected")
 	hide()
-	
+	get_parent().get_node("SamplePlayer2D").play("j")
